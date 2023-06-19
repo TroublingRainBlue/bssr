@@ -7,6 +7,7 @@ import java.util.Date;
  *  文章评论，对应数据库里的reply表
  */
 public class Reply {    //将查询缓存到redis里需要将用到的pojo序列化，否则会报错
+    //
     private int id;
     private int article_id;
     private String replyer;

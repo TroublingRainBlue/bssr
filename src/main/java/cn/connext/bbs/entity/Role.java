@@ -4,6 +4,7 @@ package cn.connext.bbs.entity;
  *  用户角色，对应数据库role表
  */
 public class Role {
+    //
     private int id;
     private String role;
     private int level;

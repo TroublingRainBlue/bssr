@@ -6,6 +6,7 @@ import java.util.Date;
  *  文章模块，对应数据库里的article表
  */
 public class Article {
+    //
     private int id;
     private int userid;
     private String title;

@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface Role_perDao {
-
+    //
     /**
      * 查询某一个角色的所有权限
      * @param roleid

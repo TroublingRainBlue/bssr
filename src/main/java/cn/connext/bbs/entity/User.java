@@ -4,6 +4,7 @@ package cn.connext.bbs.entity;
  *  用户类，对应user表
  */
 public class User {
+    //
     private int id;
     private String nickname;
     private String tel;

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="yonyongbbs" />
+        <module name="bssr" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bbs" options="-parameters" />
+      <module name="bssr" options="-parameters" />
       <module name="yonyongbbs" options="-parameters" />
     </option>
   </component>

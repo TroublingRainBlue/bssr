@@ -1,6 +1,7 @@
 package cn.connext.bbs.entity;
 
 public class Role_per {
+    //
     private int roleid;
     private int perid;
 
